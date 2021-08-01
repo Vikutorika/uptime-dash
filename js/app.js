@@ -59,24 +59,24 @@ myApp.dashboard = (function($) {
 		data.alert = "alert";
 		switch (parseInt(data.status)) {
 			case 0:
-				data.statustxt = "Up-Time paused";
+				data.statustxt = "暂停检测";
 				data.label = "info";
 				break;
 			case 1:
-				data.statustxt = "Not checked yet";
+				data.statustxt = "未检测";
 				data.label = "default";
 				break;
 			case 2:
-				data.statustxt = "Online";
+				data.statustxt = "在线(＾－＾)V";
 				data.label = "success";
 				data.alert = "";
 				break;
 			case 8:
-				data.statustxt = "Seems offline";
+				data.statustxt = "大概是离线了吧(*^▽^*)";
 				data.label = "warning";
 				break;
 			case 9:
-				data.statustxt = "Offline";
+				data.statustxt = "离线o(╥﹏╥)o";
 				data.label = "danger";
 				data.alert = "alert alert-error";
 				break;
