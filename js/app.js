@@ -37,7 +37,7 @@ myApp.dashboard = (function($) {
 	/* load uptime variables from uptimerobot
 	*/
 	function getUptime(apikey) {
-		var url = "https://api.uptimerobot.com/v2/getMonitors";
+		var url = "https://uptimerobot.api.bili33.top/v2/getMonitors";
 	
 		$.post(url, {
 			"api_key": apikey,
