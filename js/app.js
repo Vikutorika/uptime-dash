@@ -72,7 +72,7 @@ myApp.dashboard = (function($) {
 				data.alert = "";
 				break;
 			case 8:
-				data.statustxt = "大概是离线了吧;
+				data.statustxt = "大概是离线了吧";
 				data.label = "warning";
 				break;
 			case 9:
