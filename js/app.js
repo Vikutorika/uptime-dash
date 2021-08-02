@@ -67,16 +67,16 @@ myApp.dashboard = (function($) {
 				data.label = "default";
 				break;
 			case 2:
-				data.statustxt = "在线(＾－＾)V";
+				data.statustxt = "在线";
 				data.label = "success";
 				data.alert = "";
 				break;
 			case 8:
-				data.statustxt = "大概是离线了吧(*^▽^*)";
+				data.statustxt = "大概是离线了吧;
 				data.label = "warning";
 				break;
 			case 9:
-				data.statustxt = "离线o(╥﹏╥)o";
+				data.statustxt = "离线";
 				data.label = "danger";
 				data.alert = "alert alert-error";
 				break;
